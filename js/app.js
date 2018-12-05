@@ -1,4 +1,11 @@
 
+
+var url = window.location.href;
+
+var swLocation = '/twittor/sw.js';
+
+
+
 if(navigator.serviceWorker){
 
     navigator.serviceWorker.register('./sw.js');
